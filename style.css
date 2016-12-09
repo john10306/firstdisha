@@ -1,3 +1,67 @@
-.holez{float:right}
-#results{float:left}
-.navz{float:right}
+.mainz{
+
+	text-align: center;
+}
+body{
+	padding-top: 100px;
+	font-family: "Roboto", sans-serif ;
+	color:rgb(87,89,95);
+}
+#navdisha{
+	
+}
+.btn{
+	color:rgb(161,161,161);
+	border-width: 2px;
+}
+
+.butz{
+	text-align:left;
+	width: 1050px;
+}
+
+p{padding:0px;
+	padding-top: 25px;
+margin:0px;
+font-size: 20px;
+text-align: left;
+}
+
+h2{color:rgb(95,162,67);
+}
+
+.row{
+	text-align: center;
+	width: 1050px;
+	padding-bottom: 50px;
+}
+.paraz{
+	text-align: left;
+	width: 1050px;
+	padding-bottom: 50px;
+	border-width: 0 0 2px 0;
+	border-style: solid;
+	border-color: rgb(237,237,237);
+}
+
+
+#navz{padding:10px;
+color:rgb(161,161,161);
+ 	background-color: white;
+}
+#team{
+	font-size: 25px;
+}
+#portlink{font-size: 30px;
+	font-weight: bold;
+	float: left;
+	padding-left: 40px;
+	padding-bottom:10px;
+
+ }
+ 
+ a, a:link, a:visited, a:hover, a:active {
+  color: inherit;
+  text-decoration: inherit;
+  font-weight: inherit;
+}

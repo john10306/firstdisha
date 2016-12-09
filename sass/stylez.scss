@@ -1,0 +1,39 @@
+
+$test:green;
+
+.mainz{
+background: $test;
+	text-align: center;
+}
+#butz{
+	text-align:left;
+
+}
+p{padding:0px;
+margin:0px;}
+
+h2{color:$test;
+
+
+}
+.paraz{
+	text-align: left;
+	width: 1000px;
+}
+#navz{padding:10px;
+color:rgb(161,161,161);
+ 	background-color: white;
+}
+#portlink{font-size: 30px;
+	font-weight: bold;
+	float: left;
+	padding-left: 40px;
+	padding-bottom:10px;
+
+ }
+ 
+ a, a:link, a:visited, a:hover, a:active {
+  color: inherit;
+  text-decoration: inherit;
+  font-weight: inherit;
+}
