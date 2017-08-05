@@ -1,7 +1,4 @@
-.mainz{
 
-	text-align: center;
-}
 body{
 	font-family: "Roboto", sans-serif ;
 	color:rgb(87,89,95);
@@ -22,9 +19,6 @@ p{padding:0px;
 margin:0px;
 font-size: 20px;
 text-align: left;
-}
-
-h2{color:rgb(95,162,67);
 }
 
 .row{
@@ -70,4 +64,24 @@ color:rgb(161,161,161);
 .navPort{
   margin-top:0px;
   color: #a1a1a1
+}
+
+.buddha{
+background-image:url('/img/buddha2.jpg');
+}
+.aboutme{
+  font-size: 45px;
+color:rgb(95,162,67);
+  text-shadow:  black 0px 0px 10px;
+font-style: italic;
+}
+.descrip{
+  color:white;
+  text-shadow:  black 0px 0px 10px;
+}
+.about{
+  margin-bottom: 70px;
+}
+.proDisha{
+  padding: 5px;
 }
