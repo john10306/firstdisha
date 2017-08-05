@@ -3,13 +3,10 @@
 	text-align: center;
 }
 body{
-	padding-top: 100px;
 	font-family: "Roboto", sans-serif ;
 	color:rgb(87,89,95);
 }
-#navdisha{
-	
-}
+
 .btn{
 	color:rgb(161,161,161);
 	border-width: 2px;
@@ -45,7 +42,7 @@ h2{color:rgb(95,162,67);
 }
 
 
-#navz{padding:10px;
+#navz{
 color:rgb(161,161,161);
  	background-color: white;
 }
@@ -64,4 +61,13 @@ color:rgb(161,161,161);
   color: inherit;
   text-decoration: inherit;
   font-weight: inherit;
+}
+
+.navbar{
+  padding:15px;
+  margin:0;
+}
+.navPort{
+  margin-top:0px;
+  color: #a1a1a1
 }

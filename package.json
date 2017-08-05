@@ -1,23 +1,20 @@
 {
-  "name": "disha",
-  "version": "0.0.1",
-  "description": "disha's site",
-  "main": "script.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "webpack-dev-server",
+    "prod": "webpack -p"
   },
-  "repository": {
-    "type": "git",
-    "url": "?.git"
+  "devDependencies": {
+    "css-loader": "^0.28.0",
+    "raw-loader": "^0.5.1",
+    "style-loader": "^0.16.1",
+    "webpack": "^2.4.1",
+    "webpack-dev-server": "^2.4.2"
   },
-  "author": "John Malkentzos",
-  "license": "ISC",
-  "dependencies": {
-    "gulp": "^3.9.1",
-    "gulp-compass": "^2.1.0",
-    "gulp-concat": "^2.6.1",
-    "gulp-connect": "^5.0.0",
-    "gulp-livereload": "^3.8.1",
-    "gulp-util": "^3.0.7"
-  }
+  "name": "react-starter",
+  "version": "0.0.1",
+  "description": "now featuring 100% less react",
+  "main": "index.js",
+  "repository": "git@github.com:jnm10306/react-starter.git",
+  "author": "disha barua",
+  "license": "ISC"
 }
