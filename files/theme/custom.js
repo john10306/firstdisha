@@ -105,17 +105,35 @@ jQuery(function($) {
     moveLogin: function() {
       var login = $('#member-login').clone(true);
       $("#mobile-nav .wsite-menu-default > li:last-child").after(login);
-    },
-    toggleClick: function(click, target, classname){
-      $(click).click(function(){
-        $(target).toggleClass(classname);
-      });
     }
   }
 
   $(document).ready(function() {
     $('body').addClass("postload");
-    Brisk.toggleClick(".hamburger", "body", "menu-open");
+      $(".hamburger").click(function(){
+        $("body").toggleClass("menu-open");
+
+        // $currentScrollPos = $(document).scrollTop();
+        // if ($("body").hasClass("menu-open")) {
+        //   $('body').css({
+        //       'position': 'fixed'
+        //   });
+        //   $('#mobile-nav').css({
+        //       'height': '100vh'
+        //   });
+        //   localStorage.cachedScrollPos = $currentScrollPos;
+        // }
+        // else {
+        //   $('body').css({
+        //     'position': 'relative'
+        //   });
+        //   $('#mobile-nav').css({
+        //       'height': '0'
+        //   });
+        //   $('body').scrollTop(localStorage.cachedScrollPos);
+        //  }
+      });
+
      // Timeout for benefit of iframe editor
     setTimeout(function(){
       Brisk.accordion('#mobile-nav .wsite-menu-item-wrap .wsite-menu-wrap');
